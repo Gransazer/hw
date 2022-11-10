@@ -1,0 +1,53 @@
+
+*{
+	margin: 0;/* 外边距 */
+	padding 0;/*内边距*/
+	border: none;/*边框*/
+}
+#AR h1 {
+	height: 44;
+	border-bottom: 1px #e2e2e2 solid;/*下边线设置*/
+	color: #0070a8;
+	font-size: 22px;
+	line-height: 44px;
+	padding-left: 10px;
+}
+body{
+	font-family: "Times New Roman","微软雅黑";
+	font-size: 14px;
+	color: black;
+	background-color: white;
+}
+#AR{
+	width: 848px;
+	height: auto;
+	margin: 10px auto;
+}
+#AR div{
+	margin-top: 16px;
+	height: 878px;
+	background-image: url(yunduo.png),url(dm.png),url(tsg.png);
+	background-repeat: no-repeat;/*背景图平铺设置*/
+	background-position: right 49px,left top,left bottom;/*背景图像起始位置*/
+}
+#AR dl{
+	padding-left: 94px;
+	padding-top: 80px;
+	font-size: 0;
+} 
+#AR dl dt{
+	font-size: 24px;
+	font-weight: bold;
+	color: #9845476;
+	background-image: url(diamond2.png);
+	background-repeat: no-repeat;/*背景图平铺设置*/
+	background-position: left center;/*背景图像起始位置*/
+	padding-left: 30px;
+	margin-top: 20px;
+}
+#AR dl dd{
+	padding-left: 30px;
+	padding-top: 4px;
+	display: inline-block;
+	font-size: 18px;
+	
